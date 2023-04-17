@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Plumpfull Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Plumpfull Black'), url('Plumpfull.woff') format('woff');
+}
+
+
+html {
+    background-color: aquamarine;
+}
+
+.title {
+    text-align: center;
+    font-family: "Plumpfull Black";
+    font-size: 100px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px;
+}
